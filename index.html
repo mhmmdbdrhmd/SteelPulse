@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title id="title">SteelPulse Prices</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <header>
+    <h1 id="header-title">SteelPulse Prices</h1>
+    <div class="lang-switch">
+      <button id="lang-en">English</button>
+      <button id="lang-fa">فارسی</button>
+    </div>
+  </header>
+  <main>
+    <table id="product-table">
+      <thead>
+        <tr>
+          <th data-i18n="product">Product</th>
+          <th data-i18n="price">Price (USD/ton)</th>
+          <th data-i18n="lastUpdated">Last Updated</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+    <section class="chart-section">
+      <h2 data-i18n="chartTitle">Price History</h2>
+      <canvas id="price-chart" width="400" height="200"></canvas>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
