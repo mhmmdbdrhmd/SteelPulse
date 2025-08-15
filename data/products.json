@@ -1,0 +1,26 @@
+[
+  {
+    "id": "rebar-12",
+    "name_en": "Rebar 12mm",
+    "name_fa": "میلگرد ۱۲",
+    "price": 750,
+    "last_updated": "2024-05-20T10:00:00Z",
+    "history": [
+      {"date": "2024-05-18", "price": 740},
+      {"date": "2024-05-19", "price": 745},
+      {"date": "2024-05-20", "price": 750}
+    ]
+  },
+  {
+    "id": "beam-20",
+    "name_en": "Beam 20",
+    "name_fa": "تیرآهن ۲۰",
+    "price": 950,
+    "last_updated": "2024-05-20T10:00:00Z",
+    "history": [
+      {"date": "2024-05-18", "price": 940},
+      {"date": "2024-05-19", "price": 945},
+      {"date": "2024-05-20", "price": 950}
+    ]
+  }
+]
